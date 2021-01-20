@@ -99,7 +99,7 @@ def main():
     for layer in inner_layers:
         layer.lr = 1200
     
-    epochs = 2
+    epochs = 82
     for i in range(epochs):
         print('epochs:',i)
         losssum = 0
