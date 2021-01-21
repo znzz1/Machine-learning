@@ -14,3 +14,5 @@
 * [Sigmoid function and its derivative](https://github.com/znzz1/Machine-learning/blob/main/Sigmoid%20function%20and%20its%20derivative.jpg)
 * [Cross entropy loss function](https://github.com/znzz1/Machine-learning/blob/main/Cross%20entropy%20loss%20function.jpg)
 
+### Paper
+[Paper]
