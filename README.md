@@ -1,6 +1,7 @@
 # Use machine learning to achieve OCR
 
 ### Simple introduction
+This is an introduction to machine learning, using a very simple deep learning to achieve OCR
 
 ### Material
 1. [Training set](https://github.com/znzz1/Machine-learning/blob/main/train.npy)
