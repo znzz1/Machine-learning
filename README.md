@@ -12,8 +12,8 @@ This is an introduction to machine learning, using a very simple deep learning t
 [Python code](https://github.com/znzz1/Machine-learning/blob/main/main.py)
 
 ### Some referenced mathematical forumla's image
-* ![Sigmoid function and its derivative](https://github.com/znzz1/Machine-learning/blob/main/Sigmoid%20function%20and%20its%20derivative.jpg "Sigmoid") (f(x) = 1/(1 + e^x))
-* ![Cross entropy loss function](https://github.com/znzz1/Machine-learning/blob/main/Cross%20entropy%20loss%20function.jpg "Cross entropy loss function")
+* [Sigmoid function and its derivative](https://github.com/znzz1/Machine-learning/blob/main/Sigmoid%20function%20and%20its%20derivative.jpg)
+* [Cross entropy loss function](https://github.com/znzz1/Machine-learning/blob/main/Cross%20entropy%20loss%20function.jpg)
 
 ### Paper
 [Paper]
