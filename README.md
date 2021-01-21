@@ -16,4 +16,4 @@ This is an introduction to machine learning, using a very simple deep learning t
 * [Cross entropy loss function](https://github.com/znzz1/Machine-learning/blob/main/Cross%20entropy%20loss%20function.jpg)
 
 ### Paper
-[Paper]()
+[Paper](https://github.com/znzz1/Machine-learning/blob/main/paper.docx)
