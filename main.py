@@ -63,19 +63,18 @@ class Sigmoid:
         self.dx = d * sig * (1-sig)
         return self.dx
 
-class CrossEntropyLoss:
+class QuadraticLoss:
 
     def forward(self,x,label):
         self.x = x
         self.label = np.zeros_like(x)
         for a,b in zip(self.label,label):
             a[b] = 1.0
-        self.loss = -(self.label * np.log(x) + ((1 - self.label) * np.log(1 - x)))
-        self.loss = np.sum(self.loss) / x.shape[0]
+        self.loss =  np.sum(np.square(x - self.label)) / self.x.shape[0] / 2
         return self.loss
 
     def backward(self):
-        self.dx = (self.x - self.label) / self.x / (1 - self.x)/self.x.shape[0]
+        self.dx = (self.x - self.label) / self.x.shape[0]
         return self.dx
 
 
@@ -93,13 +92,13 @@ def main():
     inner_layers = []
     inner_layers.append(FullyConnect(17*17,26))
     inner_layers.append(Sigmoid())
-    losslayer = CrossEntropyLoss()
+    losslayer = QuadraticLoss()
     accuracy = Accuracy()
 
     for layer in inner_layers:
         layer.lr = 1200
     
-    epochs = 82
+    epochs = 100
     for i in range(epochs):
         print('epochs:',i)
         losssum = 0
@@ -130,6 +129,7 @@ def main():
 
     np.savetxt ("weights.csv", inner_layers[0].weights, delimiter = ",")
     np.savetxt ("biases.csv", inner_layers[0].bias, delimiter = ",")
+
 
 if __name__ == "__main__":
     main()
