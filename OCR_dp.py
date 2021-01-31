@@ -21,9 +21,9 @@ def main():
     temp = np.dot(temp,np.transpose(weights_2)) + biases_2
     temp = sigmoid(temp)
 
-    res = np.argmax(temp[0])
+    res = np.argmax(temp)
 
-    print(chr(res + 65))
+    print(chr(res+65))
 
 def sigmoid(x):
     return 1/(1+np.exp(-x))
