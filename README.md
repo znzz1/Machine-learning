@@ -7,7 +7,7 @@ This is an introduction to machine learning with a very simple OCR system on upp
 ### Working Process
 The Neural Network Model is the most popular machine learning model in Artificial Intelligence industry, which it is the simulation of human's neural network, the web of interconnected neurons, which contains different weights and biases.
 
-Different neurons come up with layers to interconnect to form proper and functional neural network. There are three basic layers, an input layer, hidden layers, and an output layer. At this point, all the data input into the the input layer, and use the forward methods to hidden layers to process and calculate, then go into the output layer to get the final result.In my OCR system, i use the simplest way. One fullyConnect layer as the hidden layer and the sigmoid function as the output layer.
+Different neurons come up with layers to interconnect to form proper and functional neural network. There are three basic layers, an input layer, hidden layers, and an output layer. At this point, all the data input into the the input layer, and use the forward methods to hidden layers to process and calculate, then go into the output layer to get the final result.In my OCR system, i use the simplest way. One fullyConnected layer as the hidden layer and the sigmoid function as the output layer.
 
 To see whether the model is good enough, we usually quote a new layer called the loss function layer. Loss reflects the quality of the trained model in general(The lower the loss, the better the quality). Here i use quadratic loss function to get the loss(the square of the difference between outputs with the expected values).
 
