@@ -14,7 +14,7 @@ The training process is very essential, which is known as the backpropagation to
 ### Demo
 Here is the result of a successful demostration to indentify the letter "D". The image is painted in the drawing tool that comes with windows system.
 * ![Image of A](https://github.com/znzz1/Machine-learning/blob/main/A.png)
-* ![Use my system to describe the image](https://github.com/znzz1/Machine-learning/blob/main/Demo%20Result.png)
+* ![Use my system to recognize the image](https://github.com/znzz1/Machine-learning/blob/main/Demo%20Result.png)
 
 ### Sources
 * [Training set](https://github.com/znzz1/Machine-learning/blob/main/train.npy)
