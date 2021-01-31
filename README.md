@@ -12,5 +12,9 @@ This is an introduction to machine learning with a very simple OCR system on upp
 1. [Train model](https://github.com/znzz1/Machine-learning/blob/main/trainModel.py)
 2. [OCR system](https://github.com/znzz1/Machine-learning/blob/main/OCR.py)
 
+### Result(A model with 97% accuracy)
+1. [weights](https://github.com/znzz1/Machine-learning/blob/main/weights.csv)
+2. [biases](https://github.com/znzz1/Machine-learning/blob/main/biases.csv)
+
 ### Paper
 [Paper](https://github.com/znzz1/Machine-learning/blob/main/paper.docx)
