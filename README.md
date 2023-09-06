@@ -19,20 +19,20 @@ Finally, export the trained model and use the model to recognize uppercase Engli
 
 ### Demo
 Here is the result of a successful demostration to indentify the letter "A". The image is painted in the drawing tool that comes with windows system.
-* ![Image of A](https://github.com/znzz1/Machine-learning/blob/main/A.png)
-* ![Use my system to recognize the image](https://github.com/znzz1/Machine-learning/blob/main/Demo%20Result.png)
+* ![Image of A](https://github.com/znzz1/Machine-learning/blob/main/sources/A.png)
+* ![Use my system to recognize the image](https://github.com/znzz1/Machine-learning/blob/main/sources/Demo%20Result.png)
 
 ### Sources
-* [Training set](https://github.com/znzz1/Machine-learning/blob/main/train.npy)
-* [Test set](https://github.com/znzz1/Machine-learning/blob/main/test.npy)
-* [Validation set](https://github.com/znzz1/Machine-learning/blob/main/validate.npy)
-* [Train model](https://github.com/znzz1/Machine-learning/blob/main/trainModel.py)
-* [OCR system](https://github.com/znzz1/Machine-learning/blob/main/OCR.py)
+* [Training set](https://github.com/znzz1/Machine-learning/blob/main/data/train.npy)
+* [Test set](https://github.com/znzz1/Machine-learning/blob/main/data/test.npy)
+* [Validation set](https://github.com/znzz1/Machine-learning/blob/main/data/validate.npy)
+* [Train model](https://github.com/znzz1/Machine-learning/blob/main/code/trainModel.py)
+* [OCR system](https://github.com/znzz1/Machine-learning/blob/main/model_config/OCR.py)
 
 ### An Example Model With 97% Accuracy
-* [weights](https://github.com/znzz1/Machine-learning/blob/main/weights.csv)
-* [biases](https://github.com/znzz1/Machine-learning/blob/main/biases.csv)
+* [weights](https://github.com/znzz1/Machine-learning/blob/main/model_config/weights.csv)
+* [biases](https://github.com/znzz1/Machine-learning/blob/main/model_config/biases.csv)
 
 ### Paper
-[Paper](https://github.com/znzz1/Machine-learning/blob/main/paper.docx)
+[Paper](https://github.com/znzz1/Machine-learning/blob/main/sources/introduction.docx)
 
